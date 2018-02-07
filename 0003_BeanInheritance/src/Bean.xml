@@ -6,13 +6,13 @@
    
    >
    
-   <bean id="technologyBean" class="com.spring.helloSpring.Technology" >
-   		<property name="name1" value="Spring Core"></property>	
-   </bean>
-   
-   <bean id="frameworkBean" class="com.spring.helloSpring.Framework" lazy-init="true">
+   <bean id="friendBean" class="com.spring.beaninheritance.Friend" parent="locationBean">
+   		<property name="name" value="Manish"></property>
    		
    </bean>
    
+   <bean id="locationBean" class="com.spring.beaninheritance.Location">
+   		<property name="location" value="India"></property>
+   </bean>
    
    </beans>

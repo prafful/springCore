@@ -6,12 +6,8 @@
    
    >
    
-   <bean id="technologyBean" class="com.spring.helloSpring.Technology" >
-   		<property name="name1" value="Spring Core"></property>	
-   </bean>
-   
-   <bean id="frameworkBean" class="com.spring.helloSpring.Framework" lazy-init="true">
-   		
+   <bean id="friendBean" class="com.spring.hellomaven.Friend" >
+   		<property name="name" value="Dhananjay"></property>	
    </bean>
    
    

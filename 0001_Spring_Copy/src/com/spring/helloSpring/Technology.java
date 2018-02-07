@@ -20,15 +20,5 @@ public class Technology {
 	public void destroyMe(){
 		System.out.println("Destroy Method Called");
 	}
-
-	public Technology(String name1) {
-		super();
-		this.name1 = name1;
-	}
-	
-	public Technology() {
-		System.out.println("Technology constructor called...");
-	}
-	
 }
 	

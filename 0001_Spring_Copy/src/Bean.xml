@@ -2,16 +2,10 @@
 <beans xmlns = "http://www.springframework.org/schema/beans"
    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation = "http://www.springframework.org/schema/beans
-   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
    
-   >
-   
-   <bean id="technologyBean" class="com.spring.helloSpring.Technology" >
+   <bean id="technologyBean" class="com.spring.helloSpring.Technology" init-method="firstMethod" destroy-method="destroyMe">
    		<property name="name1" value="Spring Core"></property>	
-   </bean>
-   
-   <bean id="frameworkBean" class="com.spring.helloSpring.Framework" lazy-init="true">
-   		
    </bean>
    
    

@@ -6,13 +6,12 @@
    
    >
    
-   <bean id="technologyBean" class="com.spring.helloSpring.Technology" >
-   		<property name="name1" value="Spring Core"></property>	
+   <bean id="friendBean" class="com.spring.beanpostprocessor.Friend" init-method="initializeMethod">
+   		<property name="name" value="Manish"></property>
    </bean>
-   
-   <bean id="frameworkBean" class="com.spring.helloSpring.Framework" lazy-init="true">
-   		
+   <bean id="processorBean" class="com.spring.beanpostprocessor.BeanPostProcessingClass" >
    </bean>
-   
+   <bean id="locationBean" class="com.spring.beanpostprocessor.Location">
+   </bean>
    
    </beans>

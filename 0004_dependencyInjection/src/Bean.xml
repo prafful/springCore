@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+   
+   >
+   
+   <bean id="friendBean" class="com.spring.di.Friend" parent="locationBean">
+   		<property name="name" value="Manish"></property>
+   		<property name="location" ref="locationBean"></property>
+   		<constructor-arg value = "Manish" index="0"/>
+   		<constructor-arg ref = "locationBean" index="1"/>
+   </bean>
+   
+   <bean id="locationBean" class="com.spring.di.Location">
+   		<property name="location" value="India" ></property>
+   </bean>
+   
+   </beans>
