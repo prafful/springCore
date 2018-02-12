@@ -23,6 +23,12 @@ public class Friend {
 		this.location = location;
 	}
 	
+	public Friend( Location location) {
+		super();
+		
+		this.location = location;
+	}
+	
 	public String myLocation(){
 		return location.tellMyLocation();
 	}

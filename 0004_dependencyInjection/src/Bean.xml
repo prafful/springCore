@@ -6,11 +6,10 @@
    
    >
    
-   <bean id="friendBean" class="com.spring.di.Friend" parent="locationBean">
-   		<property name="name" value="Manish"></property>
-   		<property name="location" ref="locationBean"></property>
-   		<constructor-arg value = "Manish" index="0"/>
-   		<constructor-arg ref = "locationBean" index="1"/>
+   <bean id="friendBean" class="com.spring.di.Friend" >
+   		
+   		
+   		<constructor-arg ref = "locationBean" />
    </bean>
    
    <bean id="locationBean" class="com.spring.di.Location">

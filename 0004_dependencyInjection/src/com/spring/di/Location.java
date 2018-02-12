@@ -13,7 +13,7 @@ public class Location {
 	}
 	
 	public String tellMyLocation(){
-		return "Location is: " + this.location;
+		return  this.location;
 	}
 	
 	
