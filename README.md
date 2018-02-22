@@ -1,4 +1,4 @@
-# springCore and MVC
+# springCore, MVC, Spring Boot and Spring Cloud
 
 Spring Version used is: 4.1.6
 https://repo.spring.io/release/org/springframework/spring/4.1.6.RELEASE/
