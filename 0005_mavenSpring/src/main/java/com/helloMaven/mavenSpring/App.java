@@ -1,4 +1,4 @@
-package com.helloMaven._mavenSpring;
+package com.helloMaven.mavenSpring;
 
 /**
  * Hello world!

@@ -16,7 +16,9 @@ public class FirstSpringMVCController {
 	
 	@RequestMapping("/kitchen")
 	public String sayKitchen(ModelMap m){
-		m.addAttribute("message", "Hello Spring Kitchen");
+		m.addAttribute("message1", "Hello Spring Kitchen");
+		
+		
 		return "kitchen";
 	}
 	
