@@ -1,0 +1,5 @@
+com\springboot\maven\entity\UserEntity.class
+com\springboot\maven\model\User.class
+com\springboot\maven\SpringBootEntryPoint.class
+com\springboot\maven\repository\UserRepository.class
+com\springboot\maven\controller\HelloFriend.class
